@@ -12,7 +12,7 @@ int main() {
 
 
     while(getline(cin, strinput)) {
-        
+        strinput.find()
     }
 
     return 0; 
