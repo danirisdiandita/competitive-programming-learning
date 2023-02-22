@@ -7,10 +7,15 @@ using namespace std;
 int main() {
 
     string inputlang; 
+    int i = 0; 
 
     // freopen("input.txt", "r", stdin ); 
-    for (int i = 0;i<2000;i++) {
-        getline(cin, inputlang); 
+    // for (int i = 0;i<2000;i++) {
+    //     getline(cin, inputlang); 
+    while (getline(cin, inputlang)) {
+        if (inputlang == "#") {
+            break; 
+        }
         if (inputlang == "HELLO") {
             cout << "Case " << i + 1 << ": " << "ENGLISH" << endl; 
         } else if (inputlang == "HOLA") {
@@ -26,6 +31,8 @@ int main() {
         } else {
             cout << "Case " << i + 1 << ": " << "UNKNOWN" << endl;
         }
+
+        i++; 
     }
     return 0; 
 }
