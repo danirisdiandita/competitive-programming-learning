@@ -29,20 +29,18 @@ int main() {
             day ++; 
             position += climbDistance; 
           
-            if (position >= height) {
+            if (position > height) {
                 cout << "success on day " << day << " position " << position << endl; 
                 break; 
             }
             position -= slidingDistance; 
          
-            if (position <= 0) {
+            if (position < 0) {
                 cout << "failure on day " << day  << " position " << position << endl; 
                 break; 
             }
 
             climbDistance -= climbDistance * (fatigueFactor/100); 
-
-            climbDistance = max(climbDistance, minimum); 
             
 
         }
