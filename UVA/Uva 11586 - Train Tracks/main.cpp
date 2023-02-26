@@ -1,6 +1,7 @@
 #include <iostream>
 #include <cstdio> 
 #include <string> 
+#include <unordered_map> 
 
 using namespace std; 
 
@@ -9,14 +10,14 @@ using namespace std;
 int main() {
     int n; 
     string pieces; 
+    unordered_map<string, int> cmap; // countermap
     freopen("input.txt", "r", stdin); 
     scanf("%d", &n); 
 
-    for (int i=0;i<n+1;i++) {
+    for (int i=0;i<n;i++) {
+     
         getline (cin, pieces); 
-        if (i > 0) {
-            cout << pieces << endl; 
-        }
+        cout << pieces << endl; 
       
     }
 
