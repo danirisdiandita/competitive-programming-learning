@@ -9,10 +9,7 @@ int main()
     int start = 2;
     int end = 7;
 
-    int n = arr.size() / sizeof(arr[0]);
-
-    // std::cout << n << std::endl;
-
+   
     sort(arr.begin(), arr.end());
 
     for (auto x : arr)
