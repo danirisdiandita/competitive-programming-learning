@@ -38,17 +38,17 @@ int main()
 
     
 
-    while (getline(cin, line)) {
+    // while (getline(cin, line)) {
 
-        if (line != "SHELVE") {
+    //     if (line != "SHELVE") {
             
-        }
+    //     }
 
    
-        if (line == "END") {
-            break; 
-        }
-    }
+    //     if (line == "END") {
+    //         break; 
+    //     }
+    // }
 
     fclose(stdin);
 }
