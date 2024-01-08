@@ -1,5 +1,6 @@
 "The Canterbury Tales" by Chaucer, G.
 "Algorithms" by Sedgewick, R.
+"The Gitu Programming Language" by Kernighan, B. and Ritchie, D.
 "The C Programming Language" by Kernighan, B. and Ritchie, D.
 END
 BORROW "Algorithms"
